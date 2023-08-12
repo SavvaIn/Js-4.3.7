@@ -1,0 +1,81 @@
+body {
+  background: #c4c4c4;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form__input {
+  width: 500px;
+  height: 61px;
+  background: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  border: none;
+}
+
+.search-result,
+.saved-result {
+  margin: 0 auto;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-result__button {
+  display: block;
+  width: 500px;
+  height: 44px;
+  background: #e3e3e3;
+  border: 2px solid #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.cross {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("cross.png");
+  background-position: center;
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+
+.saved-block {
+  height: 85px;
+  width: 400px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.section {
+  position: relative;
+  box-sizing: border-box;
+  width: 503px;
+  height: 101px;
+  background: #e27beb;
+  border: 1px solid #000000;
+  padding: 8px 16px;
+}
